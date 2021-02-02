@@ -1,0 +1,19 @@
+{
+    "name": "ltw/purge-snapshots",
+    "description": "Purge automatic AWS Lightsail Snapshots",
+    "minimum-stability": "stable",
+    "license": "MPL-2.0-no-copyleft-exception",
+    "authors": [
+        {
+            "name": "daniel",
+            "email": "daniel.ltwp@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "aws/aws-sdk-php": "^3.172"
+    },
+    "autoload": {
+        "psr-4": { "LTW\\": "src/" }
+    }
+}
