@@ -15,7 +15,5 @@ else {
     exit(1);
 }
 
-[$script, $resource, $region, $days, $version] = $argv;
-
 $purger = new \LTW\SnapshotPurger($region, $version ?? '2016-11-28');
 $purger->purgeAutosnapshots($resource, $days);
