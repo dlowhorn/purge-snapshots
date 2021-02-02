@@ -1,5 +1,5 @@
 {
-    "name": "ltw/purge-snapshots",
+    "name": "dlowhorn/purge-snapshots",
     "description": "Purge automatic AWS Lightsail Snapshots",
     "minimum-stability": "stable",
     "license": "MPL-2.0-no-copyleft-exception",
