@@ -7,7 +7,7 @@ use \Throwable;
 
 class SnapshotPurger {
 
-    private LightsailClient $lightsailClient;
+    private $lightsailClient;
 
     public function __construct($region, $version)
     {
