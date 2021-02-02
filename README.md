@@ -3,8 +3,11 @@ AWS Lightsail Automatic Snapshot Purging
 
 Usage
 -
+
+Copy vendor/dlowhorn/purge-snapshots/bin/purgeSnapshots.php to root of your project, then:
+
 ```
-php vendor/dlowhorn/purge-snapshots/bin/purgeSnapshots.php [resource name] [aws region] [days to keep] [api version]
+php purgeSnapshots.php [resource name] [aws region] [days to keep] [api version]
 ```
 
 Example
@@ -12,5 +15,5 @@ Example
 
 **Delete any automatic snapshot older than 5 days:**
 ```
-php vendor/dlowhorn/purge-snapshots/bin/purgeSnapshots.php my-lightsail-instance-name us-east-1 5 2016-11-28
+php purgeSnapshots.php my-lightsail-instance-name us-east-1 5 2016-11-28
 ```
